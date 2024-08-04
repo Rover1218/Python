@@ -4,4 +4,3 @@ for i in range(1, n+1):
         print(f"{i} It is even")
     else:
         print(f"{i} It is odd")
-    i+=1
