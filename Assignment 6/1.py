@@ -1,0 +1,6 @@
+tup1 = (10, 4, 5)
+tup2 = (2, 5, 18)
+print("The original tuple 1 : " + str(tup1))
+print("The original tuple 2 : " + str(tup2))
+res = tuple(map(sum, zip(tup1, tup2)))
+print("Resultant tuple after addition : " + str(res))
