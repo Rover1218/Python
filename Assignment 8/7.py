@@ -1,4 +1,4 @@
-def count_characters(str1):
+def count(str1):
   dict = {}
   for n in str1:
     keys = dict.keys()
@@ -7,4 +7,4 @@ def count_characters(str1):
     else:
       dict[n] = 1
   return dict
-print(count_characters('Apple'))
+print(count('Apple'))
