@@ -1,0 +1,1 @@
+fobject = open("testfile.dat", "w")
